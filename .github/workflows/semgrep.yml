@@ -1,5 +1,6 @@
   on: [pull_request]
-  semgrep:
+  jobs:
+   semgrep:
     name: Scan
     runs-on: ubuntu-20.04
     container:
